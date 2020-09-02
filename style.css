@@ -1,0 +1,35 @@
+table{
+    width: 800px;
+    margin: auto;
+    table-layout: fixed;
+    text-align: center;
+    margin-top: 50px;
+    font-family: arial;
+}
+table,th,td{
+    border: 1px dotted white;
+    border-collapse: collapse;
+    padding: 20px;
+    font-size: 20px;
+}
+th{
+    background: tomato;
+    padding: 30px;
+    text-transform: uppercase;
+
+}
+td:nth-child(5n+1){
+    background: green;
+}
+td:nth-child(5n+2){
+    background:yellow;
+}
+td:nth-child(5n+3){
+    background :red;
+}  
+td:nth-child(5n+4){
+    background :greenyellow;
+}  
+td:nth-child(5n+5){
+    background :red;
+}  
